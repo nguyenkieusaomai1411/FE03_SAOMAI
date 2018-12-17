@@ -1,0 +1,997 @@
+body  {
+	background-color: 
+	color: #333333;
+	padding: 0;
+}
+.no-scroll {
+	overflow: hidden;
+}
+html, * { box-sizing: border-box; 
+}
+*{
+	margin: 0;
+}
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Medium.otf);
+}
+@font-face {
+    font-family: montserrat-bold;
+    src: url(../fonts/Montserrat-Bold.otf);
+}
+@font-face {
+    font-family: hirakakupro-w6;
+    src: url(../fonts/hirakakupro-w6.otf);
+}
+
+#container {
+	width: 1080px;
+	margin: auto;
+}
+
+/*------Header------*/
+
+}
+.img-logo {
+    padding-top: 28px;
+    padding-left: 4px;
+}
+.img-logo img {
+	width: 202px;
+}
+.nav-toggle {
+    display: none;
+    border-radius: 5px;
+    background-color: transparent;
+    float: right;
+    height: 38px;
+    width: 38px;
+    cursor: pointer;
+    padding: 8px 8px;
+}
+.nav-toggle span {
+     position: relative;
+    display: block;
+    height: 5px;
+    width: 100%;
+    margin-top: 4px;
+    background-color: #000;
+    transition: all .25s;
+    border-radius: 50px; 
+}
+.nav-toggle.open span:first-child {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+.nav-toggle.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+}
+.nav-toggle.open span:last-child {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+.navigation {
+	padding: 33px 0 56px 0;
+}
+nav .menu li {
+    display: inline-block;
+    list-style: none;
+    width: 176px;
+    text-align: center;
+    position: relative;
+    /* padding-left: 10px; */
+    border-left: 2px solid;
+    margin: 0px;
+    /* margin-left: 3px; */
+}
+/*nav .menu li:before {
+	content: "|";
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	font-weight: bold;
+
+}
+*/
+.li-active {
+	color: #99cc33 !important; 
+}
+.after {
+	border-right: 2px solid;
+}
+.menu {
+	padding: 0;
+	margin-left: 130px;
+}
+nav .menu li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: montserrat;
+	font-size: 16px;
+	color: #000000;
+	display: block;
+	padding: 3px;
+
+
+}
+nav .menu a:active {
+	color: #99cc33; 
+}
+nav .menu a:hover {
+	color: #99cc33;
+	background: #F8F8FF;
+	padding: 3px;
+
+	
+	
+}
+form {
+	margin-left: 200px;
+	width: 800px;
+	background-color: white;
+	
+}
+/*------Header------*/
+
+/*------Slide------*/
+.slide {
+	position: relative;
+}
+.slide h2 {
+	position: absolute;
+    top: 35px;
+    right: 94px;
+    font-family: montserrat;
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.slide img {
+	width: 100%;
+}
+
+/*------Slide------*/
+
+/*------News------*/
+.news-header {
+	padding-bottom: 25px;
+}
+.news-content {
+	background: #fafafa;
+	padding: 70px 78px 68px;
+}
+.newsh1 {
+	padding-top: 3px;
+}
+h1 {
+	font-family: montserrat-bold;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+h1:before {
+    content: "";
+    background: linear-gradient(to right, rgba(210,255,82,1) 0%, rgba(67,230,222,1) 100%);
+    position: absolute;
+    top: -5px;
+    /* left: 0; */
+    width: 42px;
+    height: 4px;
+}
+.bg-row {
+	position: relative;
+}
+.news-content {
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+.content-text ul {
+	padding: 0;
+	width: 80%;
+	text-align: left;
+	margin: auto;
+}
+.content-text ul li {
+ 	display: block;
+ 	padding: 10px ;
+ 	overflow: hidden;
+}
+.content-text ul li span {
+	background: #333;
+	color: #fff;
+	padding: 5px 0;
+	float: left;
+	font-size: 14px;
+	font-family: montserrat;
+	width: 130px;
+	text-align: center;
+}
+.content-text ul li a {
+	color: #333;
+	font-size: 16px;
+	line-height: 31px;
+	font-family: Verdana;
+	margin-left: 40px
+	
+}
+.clear {
+	float: left;
+	width: 75%;
+}
+/*------News------*/ 
+
+/*------Feature------*/
+.feature {
+	padding: 20px 0;
+}
+.feature-header {
+	text-align: center;
+	padding: 20px 0;
+}
+.feature-content {
+	overflow: hidden;
+	padding: 44px 0;
+}
+.feature-left {
+	width: 360px;
+	height: 291px;
+	float: left;
+
+}
+.feature-text {
+	padding: 31px 0 0 0px;
+}
+.feature-left img {
+	width: 100%;
+}
+.feature-right {
+	float: right;
+	width: 62%;
+}
+.feature-title p {
+	font-family: Verdana;
+    font-size: 24px;
+    font-weight: bold;
+}
+.feature-text p {
+	font-size: 16px;
+    position: relative;
+    font-family: Verdana;
+    line-height: 28px;
+}
+.aereo-pos {
+	float: right;
+	padding: 10px 0px;
+}
+.aereo-pos img {
+	width: 255px;
+}
+/*------Feature------*/
+
+/*------subscription------*/
+.subscription {
+	clear: both;
+	padding: 28px 0;
+}
+.subscription-header {
+	text-align: center;
+	padding: 40px 30px;
+}
+.sub-text {
+	font-size: 16px;
+    text-align: left;
+    width: 66%;
+    margin: auto;
+    padding: 30px;
+    line-height: 23px;
+    font-family: Verdana;
+}
+.subscription-box {
+	display: flex;
+	padding: 0;
+	list-style: none;
+	justify-content: space-between;
+}
+.subscription-box li {
+	width: 32%;
+	text-align: center;
+}
+.master {
+	width: 30%;
+}
+.subscription-box li img {
+	width: 100%;
+}
+.img-master {
+
+}
+.img-box {
+	border: 3px solid #cccc33;
+	padding-bottom: 20px;
+	
+}
+.img-box:hover {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),
+            0 2px 4px 0 rgba(0,0,0,0.08);
+}
+.title-sub {
+	font-size: 22px;
+	font-family: montserrat-bold;
+	padding:10px 0;
+}
+.price {
+	font-size: 40px;
+	font-family: montserrat; 
+}
+.money {
+	font-size: 32px;
+	font-family: montserrat; 
+}
+.more-detail a {
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+	font-family: hirakakupro-w6;
+}
+.more-detail {
+	padding: 15px 105px;
+	border: 0;
+	background: #eee;
+}
+.more-detail:hover {
+	background: linear-gradient(to right, rgba(210,255,82,1) 0%, rgba(67,230,222,1) 100%);
+	cursor: pointer;
+}
+.text-sub {
+	font-size: 14px;
+	padding: 31px 0;
+	font-family: Verdana;
+}
+/*------subscription------*/
+
+.items-header{
+	text-align: center;
+	padding: 64px 0;
+}
+.items-box {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	flex-wrap: wrap;
+}
+.items-box li {
+	width: 180px;
+}
+.items-box li a img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.items {
+	padding: 40px 0;
+}
+/*------footer------*/
+.footer {
+	text-align: center;
+	padding-top: 86px;
+}
+.footer p {
+	font-family: montserrat;
+	font-size: 14px;
+}
+/*------footer------*/
+@media screen and (max-width: 320px){
+	h1 {
+    
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px)  {
+
+
+	.content-text ul li {
+		width: 100%;
+		padding-top: 100px;
+	}
+	
+	.news-content {
+		width: 100%;
+		padding: 10px 0; 
+	}
+	.content-text ul li span {
+		float: none;
+	}
+
+	
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+
+	.more-detail {
+	    padding: 15px 100px;
+	    border: 0;
+	    width: 100%;
+	}
+	.date {
+		float: left;
+		width: 100%;
+	}
+	.content-text ul li a {
+		margin-left: 0;
+	}
+	.clear {
+		width: 100%;
+	}
+	.feature-left {
+	    width: 100%;
+	    height: auto !important;
+	    float: left;
+	}
+	.feature-title {
+		padding: 20px 0 0 20px;
+	}
+	.icon {  
+    	top: 25px !important;
+	}
+	.feature-right {
+		width: 100%;
+	}
+	.feature-text {
+		padding: 20px;
+	}
+	.aereo-pos {
+	    position: static;
+	    width: 100%;
+	    float: 0;
+	    float: right;
+	    text-align: center;
+	    margin-bottom: 20px;
+	}
+
+
+}
+
+@media screen and (max-width: 480px) {
+	.container {
+		width: 100%;
+	}
+	
+	.logo {
+   		padding: 20px 10px;
+	}
+
+	.content-text ul{
+		max-width: 100%;
+	}
+	.content-text ul li {
+		width: 100%;
+		padding: 10px 7px;
+	}
+	
+	.slide h2 {
+	    position: absolute;
+	    top: 19px;
+	    right: 22px;
+	    line-height: 31px;
+	    font-size: 100%;
+	}
+	.news-header {
+		padding-bottom: 0 !important;
+		padding: 10px 0;
+	}
+	.news-content {
+		width: 100%;
+		padding: 40px 0 0px 0; 
+		margin-bottom: 0 !important;
+	}
+	.date {
+		margin-bottom: 7px;
+	}
+	.clear {
+		width: 100%;
+	}
+	.content-text {
+		padding: 15px 19px;
+	}
+	.content-text ul {
+		width: 100%;
+	}
+	.content-text ul li a {
+		padding: 0;
+    	line-height: 28px;
+		margin-left: 0;
+    }
+	.content-text ul li span {
+		float: none;
+		padding: 4px 22px;
+	}
+	.feature-header {
+	    padding: 26px 0px;
+	}
+	.feature-left {
+		width: 100%;
+		height: auto;
+	}
+	.feature-right {
+		width: 100%;
+	}
+	.feature-content {
+    	padding: 15px 17px;
+	}
+	.aereo-pos {
+		position: static;
+	}
+	.feature-text p {
+    	
+    
+	}
+	.feature-text {
+		padding: 0;
+	}
+	.subscription-header {
+    	    padding: 95px 0px 0;
+	}
+	.subscription-box {
+		display: flex;
+		flex-direction: column !important;
+	}
+	
+	.subscription-box li {
+		width: 100%;
+	}
+	.title-sub {
+   	 	    
+	}
+	.price {
+    	font-weight: bold;
+	}
+	.sub-text {
+    	width: 90%;
+    	line-height: 27px;
+   		font-family: Verdana;
+    	padding: 10px 0px;
+    
+	}
+	.text-sub {
+		font-size: 16px;
+		padding: 15px 0;
+	}
+	.more-detail {
+    	font-size: 32px;
+    	padding: 10px 0 20px 0;
+    	width: 100%;
+    	font-family: myriad-bold;
+	}
+	.more-detail a {
+		font-size: 16px;
+	}
+	.out-button {
+		padding: 10px;
+	}
+	main {
+		padding: 52px 12px 24px;
+	}
+
+	.img-box {
+		margin-top: 26px;
+		padding: 0;
+	}
+
+	.aereo-pos {
+	    position: static;
+	    width: 100%;
+	    float: 0;
+	    float: right;
+	    text-align: center;
+	}
+
+	.feature-title p {
+		font-family: Verdana;
+	    padding: 21px 0px;
+	    line-height: 36px;
+	    font-weight: 100;
+	}
+
+	.items-box li {
+    	width: 33%;
+	}
+	.items-box li img {
+		width: 100%;
+	}
+	.items-box {
+    	justify-content: center;
+	}
+	.items-header {
+    	padding: 36px 0;
+	}
+	.footer {
+		padding: 0 !important;
+	}
+	.footer p {
+		font-family: montserrat;
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 1000px){
+/*-----Menu Res------*/
+	.navigation {
+		padding: 0 !important;
+	}
+	#container {
+		width: 100%;
+	}
+	nav .menu li {
+	    
+	    
+	    border-left: none; 
+	}
+	.after {
+		border-right: none; 
+	}
+	nav {
+		border-bottom: 0;
+		display: block;
+		text-align: center;
+        border-bottom: 1px solid white;
+        position: absolute;
+	    width: 100%;
+	    top: 100px;
+	    max-height: 0;
+	    background: rgba(255, 255, 255, 0.95);
+	    z-index: 9;
+	    /*opacity: 0.8;*/
+	    transition: all 0.3s ease-out;
+	    overflow: hidden;
+	    height: 100%;
+
+	}
+	nav .menu li {
+		display: block;
+		width: 100%;
+		padding: 12px 0;
+    	border-bottom: 1px solid #ccc;
+    	margin: 0;
+	}
+	nav .menu li:before {
+		content: "";
+	}
+	.after:after {
+	content: "";
+	}
+	.nav-toggle {
+		display: block;
+		position: absolute;
+	    float: right;
+	    top: 47px;
+    	right: 15px;
+    	padding: 3px;
+	}
+	.active{
+        max-height: 100%;
+        
+  		
+	}
+	.footer p {
+		font-size: 14px;
+		font-family: montserrat;
+		padding-bottom: 40px;
+	}
+    }
+/*-----Menu Res------*/
+
+/*-----Login---------*/
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+    width: 995px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+/*----------------------------------------*/
+
+/*--------------SIGNIN----------------*/
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+/*-------------------------*/
+
+/*--------------About--------------*/
+.right {
+	float: right;
+}
+.page {
+	margin-top: 70px;
+}
+/*-------------------------*/
+
+/*---profile----*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+/*------------------------*/
+/*------countdown----*/
+.countdown{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+/*----------------*/
