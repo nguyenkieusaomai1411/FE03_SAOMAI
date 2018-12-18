@@ -245,7 +245,7 @@ h1:before {
 }
 .feature-right {
 	float: right;
-	width: 62%;
+	width: 50%;
 }
 .feature-title p {
 	font-family: Verdana;
